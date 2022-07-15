@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0px;
+}
+.inline-block {
+    display:inline-block;
+    vertical-align: top;
+}
+
+.navigation {
+    padding: 1%;
+    margin: 0 auto;
+    background: #292929;
+}
+
+.inline-block {
+    width: 100%;
+    margin-left: auto;
+    display: flex;
+    vertical-align: top;
+    align-items: center;
+}
+
+.inline-block li {
+    color: white;
+    font-size: 20px; 
+    font-family: "poppins";
+    text-align: center;
+    display: inline-block;
+    padding: 10%;
+    width: 100%;
+}
+
+.logo {
+    text-align: left;
+    width: 23%;
+    padding: 1%;
+    display: inline-block;
+}
+
+.logo img {
+    width: 40%;
+}
+
+.mySkills img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    padding-bottom: 50px;
+    padding-top: 50px;
+} 
+
+.inline-block {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.li {
+    float: right;  
+    width: 100%;
+}
+
+.heroimg {
+    padding: 25px;
+}
+.content {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content img {
+    width: 100%;
+}
+
+p {
+    font-size: 30px;
+    font-family: "poppins";
+    padding: 30px;
+}
+
+.footer {
+    background-color: #292929;
+    padding: center;
+    width: 100%;
+    float: right;
+    position: absolute;
+}
+
+.footer li {
+    color: white;
+    font-size: 20px; 
+    font-family: "poppins"; 
+    text-align: center;
+    display: inline-block;
+    padding: 3%;
+}
+
+h1 {
+    padding-bottom: 70px;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    font-size: 60px; 
+    color: #5185a6
+}
+
+.resume {
+    height: 60px;
+    width: 300px;
+    color: white;
+    background-color: #292929;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'poppins';
+}
+
+.myWork h3 {
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    padding-bottom: 50px;
+    color: #5185a6
+
+}
+
+.workGrid {
+    display: flex;
+    flex-direction: column;
+}
+
+.wandertravel {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 50px;
+    text-align: center;
+}
+
+.fcc {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+}
+
+.candyscats {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 50px;
+    padding-bottom: 100px;
+}
+
+.navOptions {
+    margin-left: auto;
+    margin-right: 15%; 
+}
+
+@media only screen and (max-width: 600) {
+    /*Your CSS styles for your grid template area here */
+    #categoryGrid {
+        grid-template-rows: 300px 300px 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "wandertravel"
+        "fcc"
+        "candyscats" 
+        ;
+    }
+}

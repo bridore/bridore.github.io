@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Billy Ridore</title>
         <link rel="stylesheet" href="./CSS/style.css">
     </head>
@@ -13,12 +13,14 @@
                     <img src="images/logoXwhite.png">
                 </div>
                 <nav class="inline-block">
-                    <ul class="inline-block">
-                        <li>About</li>
-                        <li>Skills</li>
-                        <li>Work</li>
-                        <li>Contact</li>
-                    </ul>
+                    <div class="navOptions">   
+                        <ul class="inline-block">
+                            <li>about</li>
+                            <li>skills</li>
+                            <li>work</li>
+                            <li>contact</li>
+                        </ul>
+                    </div>
                 </nav>
             </div>
         </header>
@@ -26,9 +28,43 @@
         <section class="heroimg">
             <div class="content">
                 <img src="images/hero_image.png">
-                <p>My name is Billy Ridore, a  UI/UX designer basded in Orlando Florida. I specialize in and enjoy creating prototypes for both desktop and mobile designs.</p>
-                <button>download resume</button>
+                <p>Hello, my name is Billy Ridore, I am a UX/UI designer based in Orlando Florida. I specialize in and enjoy creating wireframes and prototypes for both desktop and mobile designs. On my free time, I enjoy dabbling in art; whether it is traditional or digital illustrations. 
+                    </p>
+                <button class="resume">download resume</button>
             </div>
+        </section>
+
+        <section class="mySkills">
+             <div class="flexContainer">
+                <img src="images/my_ux_skills.png">
+             </div>
+        </section>
+            
+        <section class="myWork">
+            <h1> Projects </h1>
+                <div class="workGrid">
+                    <div class="wandertravel">
+                        <img src="images/wander travel.png" class="wander">
+                        <h4>  </h4>
+                        <p> wander - mobile travel app</p>
+                        <button></button>
+                    </div>
+                    <div class="fcc"> 
+                        <img src="images/FCC.png">
+                        <h4></h4>
+                        <p> FCC - Redesign </p>
+                        <button></button>
+                    </div>
+
+                    <div class="candyscats"> 
+                        <img src="images/Candy's Cats.png">
+                        <h4></h4>
+                        <p> Candy's Cats - Redesign </p>
+                        <button></button>
+                    </div>
+
+                    <h3> view all projects </h3>
+                </div>
         </section>
 
         <section class="footer">
@@ -40,5 +76,9 @@
             </ul>
         </section>
 
+        
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/index.js"></script>
 </html>
+
